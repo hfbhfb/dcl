@@ -1,0 +1,8 @@
+{
+  "name": "dcl",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://gitee.com/hefabao/dcl.git",
+  "author": "hefabao <hefabao@126.com>",
+  "license": "MIT"
+}
