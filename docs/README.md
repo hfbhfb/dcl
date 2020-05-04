@@ -1,39 +1,32 @@
 
-
-# 项目路径
-```bash
-cd /Users/hfb/projects/docs/dcl
-
-https://gitee.com/hefabao/dcl
-
-vuepress:官网
-https://www.vuepress.cn/guide/directory-structure.html
-```
-
-# 此文档使用如下命令
-```bash
-mkdir dcl
-cd dcl
-git init
-touch README.md
-git add README.md
-git commit -m "first commit"
-git remote add origin https://gitee.com/hefabao/dcl.git
-git push -u origin master
-```
+## <center>产品定位与应用场景</center>
 
 
-# vuepress发布到gitee学习资料
-```
-https://blog.csdn.net/huaairen/article/details/103133685
-```
+产品定位与特色 | 点餐软件通用诉求 | 友商(店家)不直接用线上线下一体化方案? 
+:-: | :-: | :-:
+<font color=red>所有的数据都在本地 </font>|  - |-
+<font color=red>拒绝二清风险,直接付钱到店家微信/支付宝 </font> | -|-
+<font color=red>商家积分通兑 </font>|  - |-
+<font color=red> 店员无线下单且不受外网影响 </font>|  - |-
+-  | 支持后厨管理 | -
+-  | 顾客扫码点餐| -
+-  | 数据统计| - 
+-  | 会员管理| -
+-  | 员工管理| -
+-  | - |  流量,App活跃度问题
+-  | - |  友商积分价值感体验不强(积分通兑[优惠券通兑]!!)
 
 
 
-#参考:有人通过这个宣传自己
-```
-https://zhousiwei.gitee.io/ibooks/
-```
+
+
+
+
+
+
+
+
+
 
 
 

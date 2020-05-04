@@ -4,5 +4,9 @@
   "main": "index.js",
   "repository": "https://gitee.com/hefabao/dcl.git",
   "author": "hefabao <hefabao@126.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  }
 }
