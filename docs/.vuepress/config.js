@@ -1,19 +1,12 @@
 module.exports = {
-title: '点餐了菜单',
-       description: '专注餐饮本管理系统,维护店家权益',
-       base: '/dcl/',
-       themeConfig : {
-nav : [
-      { text: '', link: '/' },
-      { text: '', link: '/' },
-      { text: '', link: '/' },
-      { text: '', link: '/' },
-      { text: '', link: '/' },
-      { text: '', link: '/' },
-],
-
-
-
+  title: '点餐了菜单',
+  description: '专注餐饮本管理系统,维护店家权益',
+  base: '/dcl/',
+  themeConfig: {
+    nav: [
+      { text: '应用场景', link: '/' },
+      { text: '使用方式', link: '/info/one' },
+    ],
 
 
 

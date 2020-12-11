@@ -1,0 +1,42 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/bin/yarn run docs:dev
+
+PATH: 
+  /usr/local/Cellar/ant/1.9.7/bin:/Users/hfb/Desktop/Cocox2dPro/cocos2d-x-3.16/templates:/Users/hfb/Desktop/Cocox2dPro:/Users/hfb/Desktop/Cocox2dPro/cocos2d-x-3.16/tools/cocos2d-console/bin:/Users/hfb/pythonAnaconda/anaconda/bin:/Users/hfb/pythonAnaconda/anaconda/bin:/Users/hfb/hadoopRef/apache-hive-2.1.0-bin/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/TeX/texbin:/usr/local/go/bin:/Applications/Wireshark.app/Contents/MacOS:/usr/local/bin:/usr/local/Cellar/gradle/3.1/bin:/usr/local/Cellar/groovy/2.4.7//bin:/Users/hfb/projects/go/gopath/bin
+
+Yarn version: 
+  1.22.4
+
+Node version: 
+  10.15.3
+
+Platform: 
+  darwin x64
+
+Trace: 
+  SyntaxError: /Users/hfb/projects/docs/dcl/package.json: Unexpected string in JSON at position 178
+      at JSON.parse (<anonymous>)
+      at /usr/local/lib/node_modules/yarn/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/usr/local/lib/node_modules/yarn/lib/cli.js:310:30)
+      at /usr/local/lib/node_modules/yarn/lib/cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "dcl",
+    "version": "1.0.0",
+    "main": "index.js",
+    "repository": "https://gitee.com/hefabao/dcl.git",
+    "author": "hefabao <hefabao@126.com>",
+    "license": "MIT"
+    "scripts": {
+      "docs:dev": "vuepress dev docs",
+      "docs:build": "vuepress build docs"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
